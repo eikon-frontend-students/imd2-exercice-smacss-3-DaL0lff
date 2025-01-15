@@ -1,0 +1,28 @@
+.card {
+  border: 1px solid #979797;
+  background: #fff;
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 350px;
+  height: 277px;
+  text-align: left;
+}
+
+.card-back {
+  background-image: url(/src/image/pattern.png);
+}
+
+.card-title {
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 20 0 0 20px;
+}
+
+.card-origin {
+  color: #000;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 20 20px;
+}

@@ -11,4 +11,24 @@ a {
 img,
 video {
   display: block;
+  max-width: 100%;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
