@@ -1,14 +1,14 @@
-.row + .row {
-  margin-top: 16px;
-}
+// .row + .row {
+//   margin-top: 16px;
+// }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
 
 .l-header {
   background: url(../image/sumidero_canyon.png) lightgray 0px 0px / 100% 100%
@@ -16,11 +16,17 @@
   width: 100%;
   height: 300px;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 40px 0px 0px #ffb500;
 }
 
-l-line {
-  background: #ffb500;
-  width: 100%;
+.l-line {
+  background-color: #ffb500;
   height: 10px;
-  flex-shrink: 0;
+  width: 100%;
+}
+
+.l-footer {
+  border-top: 10px solid #ffb500;
 }
