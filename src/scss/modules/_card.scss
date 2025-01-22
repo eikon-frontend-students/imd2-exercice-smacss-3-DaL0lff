@@ -3,8 +3,11 @@
   background: #fff;
   box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.5);
   text-align: left;
-  margin: 30 0 0 0px;
-  max-width: 350px;
+  margin: 15 0 15 0px;
+}
+
+.card-image img {
+  width: 100%;
 }
 
 .card-title {
